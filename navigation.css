@@ -15,7 +15,6 @@ li {
   border: 1px solid red;
   background: grey;
 }
-
 /* "button" background reactions */
 li:hover {
 	display: inline-block;
@@ -41,16 +40,26 @@ li:active {
 .navLi a:hover {
   color: purple;
 }
-/* visited link */
-.navLi a:visited {
-  color: grey;
+
+/* visited color */
+.navLi #nav1:visited {
+  color: yellow;
 }
+.navLi #nav2:visited {
+  color: yellow;
+}
+.navLi #nav3:visited {
+  color: yellow;
+}
+.navLi #nav4:visited {
+  color: yellow;
+}
+
 /* active -on click- link */
 .navLi a:active {
   color: darkblue;
 }
 
-/*cascade border fix*/
 li {
   border-radius: 10px;
   border: dotted 2px orange; 
