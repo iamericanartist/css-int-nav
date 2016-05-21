@@ -1,0 +1,57 @@
+body {
+  background-color: slategrey;
+  font-family: Tahoma;
+  font-size: 20px;
+}
+ul {
+	text-decoration: none;
+	list-style: none;
+  background-color: lightblue;
+}
+li {
+	display: inline-block;
+	padding: 10px 10px;
+	margin: 5px;
+  border: 1px solid red;
+  background: grey;
+}
+
+/* "button" background reactions */
+li:hover {
+	display: inline-block;
+	padding: 10px 10px;
+	margin: 5px;
+  border: 1px solid red;
+  background: lightgrey;
+}
+li:active {
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 5px;
+  border: 1px solid red;
+  background: lightgrey;
+}
+
+/* LINK reactions */
+/* unvisited link*/
+.navLi a:link {
+  color: black;
+}
+/* on hover color */
+.navLi a:hover {
+  color: purple;
+}
+/* visited link */
+.navLi a:visited {
+  color: grey;
+}
+/* active -on click- link */
+.navLi a:active {
+  color: darkblue;
+}
+
+/*cascade border fix*/
+li {
+  border-radius: 10px;
+  border: dotted 2px orange; 
+}
